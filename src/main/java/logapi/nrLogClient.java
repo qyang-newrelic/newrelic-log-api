@@ -113,7 +113,7 @@ public class nrLogClient {
 
   public static void main(String[] args) throws IOException {
     nrLogClient client = new nrLogClient();
-		client.setLicenseKey("ec9772a11dd7d654d71d35c86f6f168ae99e4e05");
+		client.setLicenseKey(args[1]);
 
     String myStr = "{ \"brand\" : \"Mercedes\", \"doors\" : 5 }";
     myStr = "testme";
